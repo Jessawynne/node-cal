@@ -45,7 +45,7 @@ describe('cal', () => {
       });
 
       it('returns 2017 for March 2017', () => {
-        expect(zellers.modifiedYear(2017, 3)).to.equal(2013);
+        expect(zellers.modifiedYear(2017, 3)).to.equal(2017);
       });
 
     });
@@ -70,6 +70,20 @@ describe('cal', () => {
     });
 
   });
+
+  //describe('.center', () => {
+
+    //const center = require('../lib/center');
+
+    //it('should handle January', () => {
+      //expect(center('January 2016')).to.equal('....January 2016');
+    //});
+
+     //it('should handle February', () => {
+      //expect(center('February 2016')).to.equal('...February 2016');
+    //});
+
+  //});
 
 });
 
