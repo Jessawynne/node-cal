@@ -2,14 +2,6 @@
 
 'use strict';
 
-//if (year < 1753) {
-  //console.log('cal : App does not work prior to 1753);
-//};
-
-//if (year > 9999 || year < 1) {
-  //console.log('cal : Year not in range 1..9999');
-//};
-
 //const [,,...args] = process.argv;
 //// ignores the first two arguments in the array; gives you just the command line arguments
 ////console.log(args);
@@ -29,3 +21,13 @@
   //// in terminal: ./cal.js a b c
   //process.exit(64);
 //};
+
+//if (year < 1753) {
+  //console.log('cal : App does not work prior to 1753);
+//};
+
+//if (year > 9999 || year < 1) {
+  //console.log('cal : Year not in range 1..9999');
+//};
+
+
